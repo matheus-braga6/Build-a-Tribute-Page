@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #848478;
+}
+
+h1{
+    color: white;
+    background-color: #383845;
+    font-family: impact;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    width: 80%;
+    height: 130px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px 30px 0px 0px;
+}
+
+h3{
+    color:white;
+    background-color: #383845;
+    font-family: verdana;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 80%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3px;
+    padding-top: 5px;
+
+}
+
+.paddingh3{
+    padding-bottom: 50px;
+}
+
+.end{
+    padding-bottom: 50px;
+}
+
+img{
+    display: block;
+    max-width: 65%;
+    margin: auto;
+   
+
+    
+}
+
+#img-div{
+    background-color:#383845;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#desc-div{
+    background-color:#383845;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -3px;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 45px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+a{
+    color: lightblue;
+}
+
+.blue{
+    font-size: 30px;
+    color: lightblue;
+}
+
+a:hover{
+    color: white;
+}
+
+@media (max-width: 721px){
+    h1{
+        font-size: 70px;
+        margin-bottom: -25px;
+    }
+}
+
+@media (max-width: 550px){
+    h1{
+        font-size: 50px;
+        margin-bottom: -50px;
+    }
+
+    h3{
+       font-size: 10px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    ul{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .blue{
+        font-size: 15px;
+    }
+}
+
